@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="estilo.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>insert_form</title>
+</head>
+<header>
+	<div id="div1">
+		 	<img id="cruzroja" src="cruzroja.png" width="265" height="258" alt=""/>
+		 	<p id="titulo">URGENCIAS</p>
+		 </div>
+</header>
+<nav>
+    <ul>
+      <li><a href="insert_form.html">Ingresar</a></li>
+      <li><a href="select_enfermos_form.php">Ingresos</a></li>
+      <li><a href="select_hospitales_form.php">Hospitales</a></li>
+      <li><a href="delete.html">Retirar</a></li>
+    </ul>
+  </nav>
+<body>
+	<form action="insert.php">
+		<h2 id="title">FORMULARIO DE DOLIENTES</h2>
+		<div id="form">
+			<P>
+			<label for="codigo">Código del doliente:</label>
+		 	<input type="text" name="codigo" id="codigo"/>
+		</P>
+		<p>
+			<label for="nombre">Nombre:</label>
+			<input type="text" name="nombre" id="nombre"/>
+		</p>
+		<p>
+			<label for="apellidos">Apellidos:</label>
+			<input type="text" name="apellidos" id="apellidos"/>
+		</p>
+		<p>
+			<label for="direccion">Dirección:</label>
+			<input type="text" name="direccion" id="direccion"/>
+		</p>
+		<p>
+			<label for="telefono">Número de teléfono:</label>
+			<input type="text" name="telefono" id="telefono"/>
+		</p>
+		<p>
+			<label for="ciudad">Ciudad:</label>
+			<input type="text" name="ciudad" id="ciudad"/>
+		</p>
+		<p>
+			<label for="provincia">Provincia:</label>
+			<input type="text" name="provincia" id="provincia"/>
+		</p>
+		<p>
+			<label for="fechnac">Fecha de nacimiento:</label>
+			<input type="date" name="fechnac" id="fechnac"/>
+		</p>
+		<p>
+			<label for="enfermedad">Enfermedad o síntomas:</label>
+			<input type="text" name="enfermedad" id="enfermedad"/>
+		</p>
+		<p>
+			<label for="codigohospital">Código del hospital a ingresar:</label>
+			<input type="text" name="codigohospital" id="codigohospital"/>
+		</p>
+		<p>
+			<label for="Enviar"></label>
+			<input type="submit">
+			<label for="Reset"></label>
+			<input type="reset">
+		</p>
+		</div>
+		
+	</form>
+</body>
+</html>

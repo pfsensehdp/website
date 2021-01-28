@@ -1,0 +1,93 @@
+header{
+	background: lightgray;
+	font-family: Arial,Verdana;
+}
+
+#div1{
+	background-color: white;
+	display: flex;
+	padding: 10px;
+	color: black;
+	
+}
+#cruzroja{
+	height: 300px;
+	width: 300px;
+	display: flex;
+	
+}
+#titulo{
+	font-size: 100px;
+	display:right;
+	color: black;
+	text-align: right;
+	padding-left: 10%;
+	background-color: white;
+	border: 0px;
+
+
+}
+
+nav {
+	text-align: center;
+	background-color: lightgray;
+	border: 1px solid black;
+	margin: 10px;
+
+}
+
+
+nav ul li  {
+	background-color: white;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 7px;
+	color:black;
+	text-align: center;
+
+}
+
+
+
+body {
+	background-color: white;
+	color: black;
+	margin:1%;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	font-family: "Arial","Verdana";
+}
+
+#tabla{
+	display: table;
+	text-align: center;
+	background-color: white;
+	color: black;
+	margin:auto;
+	border: 1px solid black;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+
+
+#form {
+	background-color: white;
+}
+
+p{
+	display: inline-block;
+	border: 1px solid black;
+	padding: 7px;
+	color:black;
+	text-align: left;
+	background-color: lightgrey;
+}
+
+#title{
+	display: left;
+	text-align: center;
+	font-size: 23px;
+	background-color: white;
+}
